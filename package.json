@@ -1,0 +1,13 @@
+{
+  "name": "legal-domain-cutover",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-strip-types src/domain_cutover.ts",
+    "test": "node --experimental-strip-types --test src/domain_cutover.test.ts"
+  },
+  "dependencies": {
+    "zod": "^3.24.0"
+  }
+}
